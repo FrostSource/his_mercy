@@ -1,0 +1,193 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "train.vmat"
+								to = "models/interior/toys/fine_colored_train.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ -1.976061, 0.014688, 9.368894 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 7.42171, 5.93827, 1.125001 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 0.398374, 0.011953, 3.258659 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 11.992475, 5.296487, 4.194352 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 0.425851, 1.858477, 5.79268 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.916871, 0.805894, 6.091079 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ -4.925925, 1.858477, 5.79268 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.916871, 0.805894, 6.091079 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ -4.925925, -1.859597, 5.79268 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.916871, 0.805894, 6.091079 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 0.431754, -1.859597, 5.79268 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.916871, 0.805894, 6.091079 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 3.672236, 0.011953, 6.23467 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 5.444748, 5.296487, 1.757671 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ -6.388607, 0.03227, 1.701854 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.49448, 1.992826, 0.413637 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						radius = 0.2
+						point0 = [ -6.548355, 0.004976, 1.891031 ]
+						point1 = [ -6.548357, 0.004976, 2.817667 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ -3.291065, -3.288682, 1.873923 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.723463, 1.312126, 3.68084 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 3.479461, -3.288682, 1.873923 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.723463, 1.312126, 3.68084 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 3.479461, 3.306287, 1.873923 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.723463, 1.312126, 3.68084 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ -3.293004, 3.306287, 1.873923 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.723463, 1.312126, 3.68084 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/interior/toys/fbx/train_head.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

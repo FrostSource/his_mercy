@@ -1,0 +1,258 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 96.111252
+						meshes = 
+						[
+							"lod1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 127.435463
+						meshes = 
+						[
+							"lod2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 155.954208
+						meshes = 
+						[
+							"lod3",
+						]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "spruce_new_bark.vmat"
+								to = "models/exterior/trees/spruce_bark.vmat"
+							},
+							{
+								from = "spruce_new_branch.vmat"
+								to = "models/exterior/trees/spruce_leaf.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "no_motion"
+						remaps = 
+						[
+							{
+								from = "models/exterior/trees/spruce_leaf.vmat"
+								to = "models/exterior/trees/spruce_leaf_nomotion.vmat"
+							},
+							{
+								from = "models/exterior/trees/spruce_bark.vmat"
+								to = "models/exterior/trees/spruce_bark_nomotion.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "Spruce_Forest_02_LODS"
+						parent_bone = ""
+						surface_prop = "world.foliage"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/exterior/trees/fbx/Spruce_Hill_02_collision.FBX"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Spruce_Forest_02",
+								"Spruce_Forest_02_001",
+								"Spruce_Forest_02_002",
+								"Spruce_Forest_02_003",
+								"Spruce_Forest_02_004",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "lod0"
+						filename = "models/exterior/trees/fbx/spruce_hill_02_LODS.FBX"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Spruce_Forest_06",
+								"Spruce_Forest_04",
+								"Spruce_Forest_03",
+								"Spruce_Forest_05",
+								"Spruce_Forest_01_004",
+								"Spruce_Forest_01_003",
+								"Spruce_Forest_01_002",
+								"Spruce_Forest_01_001",
+								"Spruce_Forest_02_001",
+								"Spruce_Forest_02_002",
+								"Spruce_Forest_02_003",
+								"Spruce_Forest_02_004",
+								"Spruce_Hill_01_001",
+								"Spruce_Hill_01_002",
+								"Spruce_Hill_01_003",
+								"Spruce_Hill_01_004",
+								"Spruce_Hill_02_001",
+								"Spruce_Hill_02_002",
+								"Spruce_Hill_02_003",
+								"Spruce_Hill_02_004",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "lod1"
+						filename = "models/exterior/trees/fbx/spruce_hill_02_LODS.FBX"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Spruce_Forest_06",
+								"Spruce_Forest_04",
+								"Spruce_Forest_03",
+								"Spruce_Forest_05",
+								"Spruce_Forest_01_004",
+								"Spruce_Forest_01_003",
+								"Spruce_Forest_01_002",
+								"Spruce_Forest_01",
+								"Spruce_Forest_02",
+								"Spruce_Forest_02_002",
+								"Spruce_Forest_02_003",
+								"Spruce_Forest_02_004",
+								"Spruce_Hill_01_002",
+								"Spruce_Hill_01_003",
+								"Spruce_Hill_01_004",
+								"Spruce_Hill_01",
+								"Spruce_Hill_02_002",
+								"Spruce_Hill_02_003",
+								"Spruce_Hill_02_004",
+								"Spruce_Hill_02",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "lod2"
+						filename = "models/exterior/trees/fbx/spruce_hill_02_LODS.FBX"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Spruce_Forest_06",
+								"Spruce_Forest_04",
+								"Spruce_Forest_03",
+								"Spruce_Forest_05",
+								"Spruce_Forest_01_004",
+								"Spruce_Forest_01_003",
+								"Spruce_Forest_01",
+								"Spruce_Forest_01_001",
+								"Spruce_Forest_02",
+								"Spruce_Forest_02_001",
+								"Spruce_Forest_02_003",
+								"Spruce_Forest_02_004",
+								"Spruce_Hill_01_003",
+								"Spruce_Hill_01_004",
+								"Spruce_Hill_01_001",
+								"Spruce_Hill_01",
+								"Spruce_Hill_02_004",
+								"Spruce_Hill_02_003",
+								"Spruce_Hill_02_001",
+								"Spruce_Hill_02",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "lod3"
+						filename = "models/exterior/trees/fbx/spruce_hill_02_LODS.FBX"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Spruce_Forest_06",
+								"Spruce_Forest_04",
+								"Spruce_Forest_03",
+								"Spruce_Forest_05",
+								"Spruce_Forest_01",
+								"Spruce_Forest_01_001",
+								"Spruce_Forest_01_002",
+								"Spruce_Forest_01_004",
+								"Spruce_Forest_02",
+								"Spruce_Forest_02_001",
+								"Spruce_Forest_02_002",
+								"Spruce_Forest_02_004",
+								"Spruce_Hill_01_004",
+								"Spruce_Hill_01_002",
+								"Spruce_Hill_01_001",
+								"Spruce_Hill_01",
+								"Spruce_Hill_02_004",
+								"Spruce_Hill_02_002",
+								"Spruce_Hill_02_001",
+								"Spruce_Hill_02",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+	}
+}

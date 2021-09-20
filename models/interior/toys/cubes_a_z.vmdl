@@ -1,0 +1,299 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "vr_carry_type"
+						game_keys = 
+						{
+							carry_type = "0"
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ 0.0, 2.98695, 1.66452 ]
+							angles_left = [ 0.0, -29.7591, 0.0 ]
+							origin_right = [ 0.0, -2.98695, 1.66452 ]
+							angles_right = [ -0.0, 29.7591, 0.0 ]
+							max_distance = 4.0
+							finger_thumb = 0.436
+							finger_pinky = 0.424
+							finger_ring = 0.447
+							finger_middle = 0.453
+							finger_index = 0.505
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ 0.0, 0.0, 2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, 0.0, -2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = true
+							rotation_axis0 = [ 5.0, 0.0, 1.5 ]
+							rotation_axis1 = [ -5.0, 0.0, 1.5 ]
+							rotation_min = 180.0
+							rotation_max = 180.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ 2.91451, -0.877696, 1.66452 ]
+							angles_left = [ -0.0, -135.0, 0.0 ]
+							origin_right = [ -2.91451, -0.877696, 1.66452 ]
+							angles_right = [ 0.0, -45.0, 0.0 ]
+							max_distance = 4.0
+							finger_thumb = 0.366
+							finger_pinky = 0.424
+							finger_ring = 0.447
+							finger_middle = 0.453
+							finger_index = 0.505
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ 0.0, 0.0, 2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, 0.0, -2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = true
+							rotation_axis0 = [ 0.0, 5.0, 1.5 ]
+							rotation_axis1 = [ 0.0, -5.0, 1.5 ]
+							rotation_min = 180.0
+							rotation_max = 180.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ 2.63684, 0.109619, 0.678363 ]
+							angles_left = [ 45.000008, 180.0, -89.999992 ]
+							origin_right = [ -2.63684, 0.109619, 0.678363 ]
+							angles_right = [ 45.0, 0.0, 90.0 ]
+							max_distance = 4.0
+							finger_thumb = 0.366
+							finger_pinky = 0.424
+							finger_ring = 0.447
+							finger_middle = 0.453
+							finger_index = 0.505
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ -0.0, 0.0, -2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, 0.0, -2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = true
+							rotation_axis0 = [ 0.0, 0.0, 5.0 ]
+							rotation_axis1 = [ 0.0, 0.0, -5.0 ]
+							rotation_min = 180.0
+							rotation_max = 180.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ 2.63684, 0.109619, 2.26398 ]
+							angles_left = [ -45.000008, 180.0, 89.999992 ]
+							origin_right = [ -2.63684, 0.109619, 2.26398 ]
+							angles_right = [ -45.0, 0.0, -90.0 ]
+							max_distance = 4.0
+							finger_thumb = 0.366
+							finger_pinky = 0.424
+							finger_ring = 0.447
+							finger_middle = 0.453
+							finger_index = 0.505
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ -0.0, 0.0, -2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, 0.0, -2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = true
+							rotation_axis0 = [ 0.0, 0.0, 5.0 ]
+							rotation_axis1 = [ 0.0, 0.0, -5.0 ]
+							rotation_min = 180.0
+							rotation_max = 180.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_box"
+						game_keys = 
+						{
+							bonename = ""
+							dimensions = [ 3.0, 3.0, 3.0 ]
+							offset_origin = [ 0.0, 0.0, 1.5 ]
+							offset_angles = [ 0.0, 0.0, 0.0 ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "cubes_az.vmat"
+								to = "models/interior/toys/blank_blocks.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "a_f"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/blank_blocks.vmat"
+								to = "models/interior/toys/fine_cube_a_f.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "g_l"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/blank_blocks.vmat"
+								to = "models/interior/toys/fine_cube_g_l.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "m_r"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/blank_blocks.vmat"
+								to = "models/interior/toys/fine_cube_m_r.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "s_x"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/blank_blocks.vmat"
+								to = "models/interior/toys/fine_cube_s_x.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "y_d"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/blank_blocks.vmat"
+								to = "models/interior/toys/fine_cube_y_d.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 0.0, 0.0, 1.5 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.0, 3.0, 3.0 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/interior/toys/fbx/cubes_a_z.fbx"
+						import_scale = 0.5
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

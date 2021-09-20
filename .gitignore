@@ -1,0 +1,19 @@
+
+# common ignores
+/_bakeresourcecache/
+*bakeresourcecache.vpk
+/.vscode/
+*_test*
+scripts/vlua_globals.lua
+
+# custom assets with restricted licenses
+/materials/gore/*.png
+/models/character/wife/fbx
+/models/character/wife/textures
+/models/exterior/grass/fbx
+/models/exterior/grass/textures
+/models/exterior/trees/fbx
+/models/exterior/trees/textures
+/models/interior/toys/fbx
+/models/interior/toys/textures
+
