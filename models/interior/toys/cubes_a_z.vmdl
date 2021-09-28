@@ -197,7 +197,7 @@
 						[
 							{
 								from = "cubes_az.vmat"
-								to = "models/interior/toys/blank_blocks.vmat"
+								to = "models/interior/toys/fine_cube_a_f.vmat"
 							},
 						]
 						use_global_default = false
@@ -206,10 +206,11 @@
 					{
 						_class = "MaterialGroup"
 						name = "a_f"
+						disabled = true
 						remaps = 
 						[
 							{
-								from = "models/interior/toys/blank_blocks.vmat"
+								from = "models/interior/toys/fine_cube_a_f.vmat"
 								to = "models/interior/toys/fine_cube_a_f.vmat"
 							},
 						]
@@ -220,7 +221,7 @@
 						remaps = 
 						[
 							{
-								from = "models/interior/toys/blank_blocks.vmat"
+								from = "models/interior/toys/fine_cube_a_f.vmat"
 								to = "models/interior/toys/fine_cube_g_l.vmat"
 							},
 						]
@@ -231,7 +232,7 @@
 						remaps = 
 						[
 							{
-								from = "models/interior/toys/blank_blocks.vmat"
+								from = "models/interior/toys/fine_cube_a_f.vmat"
 								to = "models/interior/toys/fine_cube_m_r.vmat"
 							},
 						]
@@ -242,7 +243,7 @@
 						remaps = 
 						[
 							{
-								from = "models/interior/toys/blank_blocks.vmat"
+								from = "models/interior/toys/fine_cube_a_f.vmat"
 								to = "models/interior/toys/fine_cube_s_x.vmat"
 							},
 						]
@@ -253,8 +254,63 @@
 						remaps = 
 						[
 							{
-								from = "models/interior/toys/blank_blocks.vmat"
+								from = "models/interior/toys/fine_cube_a_f.vmat"
 								to = "models/interior/toys/fine_cube_y_d.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "a_f_old"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_cube_a_f.vmat"
+								to = "models/interior/toys/old_cube_a_f.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "g_l_old"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_cube_a_f.vmat"
+								to = "models/interior/toys/old_cube_g_l.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "m_r_old"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_cube_a_f.vmat"
+								to = "models/interior/toys/old_cube_m_r.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "s_x_old"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_cube_a_f.vmat"
+								to = "models/interior/toys/old_cube_s_x.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "y_d_old"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_cube_a_f.vmat"
+								to = "models/interior/toys/old_cube_y_d.vmat"
 							},
 						]
 					},
@@ -267,7 +323,7 @@
 					{
 						_class = "PhysicsShapeBox"
 						parent_bone = ""
-						surface_prop = "prop.wood_furniture"
+						surface_prop = "prop.wood_small"
 						collision_prop = "default"
 						origin = [ 0.0, 0.0, 1.5 ]
 						angles = [ 0.0, 0.0, 0.0 ]

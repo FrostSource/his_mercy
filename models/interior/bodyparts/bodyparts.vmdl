@@ -1,0 +1,126 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "tx_bodyparts.vmat"
+								to = "models/interior/bodyparts/tx_gorepile.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/interior/bodyparts/fbx/BYOB_Bodyparts.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Arm1_low_002",
+								"Arm_low_002",
+								"Head_low_002",
+								"Pelvis_low_001",
+								"Ribs_low_002",
+								"Spine_low_002",
+								"Thigh_low_002",
+								"Torso_low_002",
+								"Recovered_Tool3_1_002",
+								"Pile_low_002",
+								"Gut3_low_002",
+								"Plane_001",
+								"GorePile_06_001",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 0.5
+						mirror_x = false
+						mirror_y = false
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "BYOB_Bodyparts"
+						disabled = true
+						parent_bone = ""
+						surface_prop = "prop.flesh_bloody"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/interior/bodyparts/fbx/BYOB_Bodyparts.fbx"
+						import_scale = 1.0
+						maxMeshVertices = 124
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Arm1_low_002",
+								"Arm_low_002",
+								"GorePile_06_001",
+								"Gut3_low_002",
+								"Head_low_002",
+								"Pelvis_low_001",
+								"Pile_low_002",
+								"Ribs_low_002",
+								"Spine_low_002",
+								"Thigh_low_002",
+								"Torso_low_002",
+								"Recovered_Tool3_1_002",
+								"Plane_001",
+							]
+						}
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = ""
+						surface_prop = "prop.flesh_bloody"
+						collision_prop = "default"
+						radius = 33.636147
+						center = [ 79.102615, -151.658234, 0.516565 ]
+					},
+				]
+			},
+		]
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+	}
+}

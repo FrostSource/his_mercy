@@ -1,0 +1,179 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "material #26.vmat"
+								to = "models/interior/toys/teddy.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "bloody"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/teddy.vmat"
+								to = "models/interior/toys/teddy_bloody.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "Bip01_Spine"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 2.008587
+						center = [ 0.774321, 0.335141, 0.000001 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "Bip01_L_Thigh"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 0.580045
+						point0 = [ 2.547992, 0.001993, -0.26062 ]
+						point1 = [ 0.450942, -0.000466, 0.060887 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "Bip01_L_Foot"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 1.2978
+						center = [ 0.350448, 0.556323, -0.292903 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "Bip01_R_Thigh"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 0.623214
+						point0 = [ 2.206666, -0.051222, 0.117613 ]
+						point1 = [ 0.526898, -0.052866, -0.117613 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "Bip01_R_Foot"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 1.352131
+						center = [ 0.519041, 0.321725, 0.264432 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "Bip01_Spine1"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 1.788207
+						center = [ 0.82516, 0.255408, 0.000001 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "Bip01_Head"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 2.115432
+						center = [ 1.887497, 0.527922, 0.000001 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "Bip01_L_Clavicle"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 0.563255
+						point0 = [ 4.261675, 0.521023, -0.267403 ]
+						point1 = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "Bip01_L_Hand"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 1.0
+						center = [ 1.314905, -0.099239, 0.133664 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "Bip01_R_Clavicle"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 0.55887
+						point0 = [ 4.371153, 0.540334, 0.307838 ]
+						point1 = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "Bip01_R_Hand"
+						surface_prop = "prop.pillow"
+						collision_prop = "default"
+						radius = 1.0
+						center = [ 1.151065, -0.086874, -0.117012 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/interior/toys/fbx/teddy.FBX"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "jointed_physics_model"
+		primary_associated_entity = "prop_ragdoll"
+		anim_graph_name = ""
+	}
+}

@@ -50,7 +50,7 @@
 						[
 							{
 								from = "models/classified_note/materials/classified_note_1.vmat"
-								to = "models/note/materials/note_blank.vmat"
+								to = "materials/dev/black_vr.vmat"
 							},
 							{
 								from = "models/classified_note/materials/classified_note_blank.vmat"
@@ -59,6 +59,96 @@
 						]
 						use_global_default = false
 						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "laundry_puzzle"
+						remaps = 
+						[
+							{
+								from = "models/note/materials/note_blank.vmat"
+								to = "models/note/materials/note_blank.vmat"
+							},
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "models/note/materials/note_laundry_puzzle.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "kitchen_puzzle"
+						remaps = 
+						[
+							{
+								from = "models/note/materials/note_blank.vmat"
+								to = "models/note/materials/note_blank.vmat"
+							},
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "models/note/materials/note_kitchen_puzzle.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "toy_puzzle"
+						remaps = 
+						[
+							{
+								from = "models/note/materials/note_blank.vmat"
+								to = "models/note/materials/note_blank.vmat"
+							},
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "models/note/materials/note_toy_puzzle.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "stairs_puzzle"
+						remaps = 
+						[
+							{
+								from = "models/note/materials/note_blank.vmat"
+								to = "models/note/materials/note_blank.vmat"
+							},
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "models/note/materials/note_stairs_puzzle.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "pets_puzzle"
+						remaps = 
+						[
+							{
+								from = "models/note/materials/note_blank.vmat"
+								to = "models/note/materials/note_blank.vmat"
+							},
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "models/note/materials/note_pets_puzzle.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "intro_wife"
+						remaps = 
+						[
+							{
+								from = "models/note/materials/note_blank.vmat"
+								to = "models/note/materials/note_blank.vmat"
+							},
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "models/note/materials/note_intro_ife.vmat"
+							},
+						]
 					},
 				]
 			},
@@ -69,6 +159,7 @@
 					{
 						_class = "PhysicsHullFile"
 						name = "notemesh"
+						disabled = true
 						parent_bone = ""
 						surface_prop = "prop.paper"
 						collision_prop = "default"
@@ -86,6 +177,15 @@
 							exclude_by_default = false
 							exception_list = [  ]
 						}
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.paper"
+						collision_prop = "default"
+						origin = [ -0.066205, -0.027952, 0.140005 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 8.321699, 6.692663, 0.46916 ]
 					},
 				]
 			},

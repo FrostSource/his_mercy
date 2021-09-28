@@ -1,0 +1,41 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_projected_decals.vfx"
+
+	//---- Decal ----
+	F_TRIPLANAR_MAPPING 1
+
+	//---- Normal ----
+	F_NORMAL_MAP 1
+
+	//---- Specular ----
+	F_SPECULAR 1
+	F_SPECULAR_CUBE_MAP 1 // In-game Cube Map
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	TextureColor "materials/gore/t_blood_trail_11.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	TextureMetalness "materials/default/default_metal.tga"
+
+	//---- Normal ----
+	TextureNormal "materials/gore/t_blood_trail_11_n.png"
+
+	//---- Roughness ----
+	TextureRoughness "[0.000000 0.000000 0.000000 0.000000]"
+
+	//---- Translucent ----
+	TextureTranslucency "materials/gore/t_blood_trail_11_trans.png"
+}

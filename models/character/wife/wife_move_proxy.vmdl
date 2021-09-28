@@ -1,0 +1,80 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\character\\wife\\dmx\\mesh\\wife_move_proxy.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "PoseParamList"
+				children = 
+				[
+					{
+						_class = "PoseParam"
+						name = "move_yaw"
+						poseparam_min = 0.0
+						poseparam_max = 1.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							name = ""
+							speeds = [  ]
+							runspeed = 150.0
+							walkspeed = 75.0
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							useMotionDamping = false
+							sharpStartAngle = 180.0
+							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "forward"
+						parent_bone = ""
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+		]
+		model_archetype = "generic_actor_model"
+		primary_associated_entity = "generic_actor"
+		anim_graph_name = ""
+	}
+}

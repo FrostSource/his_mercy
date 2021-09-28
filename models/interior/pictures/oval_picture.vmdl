@@ -1,0 +1,166 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\interior\\pictures\\dmx\\mesh\\oval_picture.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "idle"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ -0.343083, -3.14954, -1.75687 ]
+							angles_left = [ -44.4648, 150.238, -0.232862 ]
+							origin_right = [ -0.343083, 3.14954, -1.75687 ]
+							angles_right = [ -44.464798, -150.238007, 0.23286 ]
+							max_distance = 5.0
+							finger_thumb = 0.622
+							finger_pinky = 0.575
+							finger_ring = 0.54
+							finger_middle = 0.476
+							finger_index = 0.482
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ 0.0, 0.0, 2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, -0.0, 2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = false
+							rotation_axis0 = [ 0.0, 0.0, 10.0 ]
+							rotation_axis1 = [ 0.0, 0.0, -10.0 ]
+							rotation_min = 0.0
+							rotation_max = 0.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "vr_carry_type"
+						game_keys = 
+						{
+							carry_type = "0"
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "materials/dev/black_vr.vmat"
+							},
+							{
+								from = "models/props/jozef_hideout/materials/picture_oval.vmat"
+								to = "models/props/jozef_hideout/materials/picture_oval.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "anna"
+						remaps = 
+						[
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "materials/interior/pictures/portrait_anna.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "bandit"
+						remaps = 
+						[
+							{
+								from = "materials/dev/black_vr.vmat"
+								to = "materials/interior/pictures/portrait_bandit.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "oval_picture"
+						parent_bone = ""
+						surface_prop = "prop.wood_pic_frame_small"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/interior/pictures/dmx/mesh/oval_picture.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 40
+						import_mode = "HullPerMesh"
+						optimization_algorithm = "IFR"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

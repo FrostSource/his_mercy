@@ -136,6 +136,24 @@
 						weight = 1.0
 						ignore_rotation = false
 					},
+					{
+						_class = "Attachment"
+						name = "chase_see_target"
+						parent_bone = ""
+						relative_origin = [ 47.162659, 0.0, 166.206116 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "head"
+						parent_bone = ""
+						relative_origin = [ 0.0, -7.580378, 180.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
 				]
 			},
 			{
@@ -174,7 +192,7 @@
 						disable_compression = false
 						source_filename = "models/character/wife/fbx/BlixlasANimated.fbx"
 						start_frame = -1
-						end_frame = 36
+						end_frame = 0
 						framerate = 120.0
 						reverse = false
 					},

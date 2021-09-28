@@ -1,0 +1,29 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_projected_decals.vfx"
+
+	//---- Decal ----
+	F_TRIPLANAR_MAPPING 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	TextureColor "materials/projected/projector_puzzle_1.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+	g_flGlossiness "0.500"
+
+	//---- Metalness ----
+	TextureMetalness "materials/default/default_metal.tga"
+
+	//---- Translucent ----
+	TextureTranslucency "materials/projected/projector_puzzle_1_trans.png"
+}

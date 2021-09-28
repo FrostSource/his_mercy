@@ -1,0 +1,223 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "vr_carry_type"
+						game_keys = 
+						{
+							carry_type = "0"
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_box"
+						game_keys = 
+						{
+							bonename = ""
+							dimensions = [ 13.5512, 11.2953, 5.27167 ]
+							offset_origin = [ 0.401766, 0.059474, 3.29716 ]
+							offset_angles = [ -12.6579, 0.0, 0.0 ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "plane.vmat"
+								to = "models/interior/toys/plane_fine_blank.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "green"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/plane_fine_blank.vmat"
+								to = "models/interior/toys/plane_fine_green.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "red"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/plane_fine_blank.vmat"
+								to = "models/interior/toys/plane_fine_red.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "old"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/plane_fine_blank.vmat"
+								to = "models/interior/toys/plane_old_blank.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "old_green"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/plane_fine_blank.vmat"
+								to = "models/interior/toys/plane_old_green.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "old_red"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/plane_fine_blank.vmat"
+								to = "models/interior/toys/plane_old_red.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ 3.91249, 0.038932, 4.092377 ]
+						angles = [ -8.549285, 0.0, 0.0 ]
+						dimensions = [ 3.929837, 15.130533, 4.660378 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ 6.814173, 0.071985, 4.56416 ]
+						angles = [ -8.549285, 0.0, 0.0 ]
+						dimensions = [ 1.658578, 3.852453, 4.730729 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "copy"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ -1.059641, 0.071985, 3.255916 ]
+						angles = [ -8.549285, 0.0, 0.0 ]
+						dimensions = [ 6.097195, 3.852453, 2.662506 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ -5.286029, -0.005891, 3.183985 ]
+						angles = [ -8.549285, 0.0, 0.0 ]
+						dimensions = [ 2.221358, 0.475687, 5.109798 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ -5.254652, 0.007642, 2.975279 ]
+						angles = [ -8.549284, 0.0, 89.754936 ]
+						dimensions = [ 2.221358, 0.475687, 6.348735 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ -5.259669, -0.614432, 0.809113 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.565356, 0.631403, 1.455967 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ 5.033539, -4.313356, 1.008918 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.843366, 1.453573, 1.855578 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.wood_small"
+						collision_prop = "default"
+						origin = [ 5.033539, 4.294779, 1.008918 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.843366, 1.453573, 1.855578 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/interior/toys/fbx/plane.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

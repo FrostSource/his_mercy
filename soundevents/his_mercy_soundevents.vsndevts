@@ -1,3 +1,231 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
+	his_mercy.interior.slide_projector_noise_lp =
+	{
+		type = "hlvr_default_3d"
+		volume = 3
+		volume_falloff_min = 32
+		volume_falloff_max = 256
+		volume_fade_in = 0.5
+		volume_fade_out = 0.5
+		vsnd_files = "sounds/interior/slide_projector_noise_lp.vsnd"
+	}
+	
+	his_mercy.interior.slide_projector_cycle =
+	{
+		type = "hlvr_default_3d"
+		volume = 3
+		volume_falloff_min = 32
+		volume_falloff_max = 256
+		vsnd_files =
+		[
+			"sounds/interior/slide_projector_cycle_1.vsnd"
+		]
+	}
+	
+	his_mercy.gore.movement =
+	{
+		type = "hlvr_default_3d"
+		volume = 1
+		volume_falloff_min = 32
+		volume_falloff_max = 700
+		vsnd_files =
+		[
+			"sounds/gore/gore_movement_01.vsnd",
+			"sounds/gore/gore_movement_02.vsnd",
+			"sounds/gore/gore_movement_03.vsnd",
+			"sounds/gore/gore_movement_04.vsnd",
+			"sounds/gore/gore_movement_05.vsnd",
+			"sounds/gore/gore_movement_06.vsnd",
+			"sounds/gore/gore_movement_07.vsnd",
+			"sounds/gore/gore_movement_08.vsnd",
+		]
+	}
+	
+	his_mercy.interior.abuse_sounds =
+	{
+		type = "hlvr_default_3d"
+		volume = 5
+		volume_fade_out = 5
+		vsnd_files =
+		[
+			"sounds/interior/abuse_sounds.vsnd"
+		]
+	}
+	
+	his_mercy.interior.abuse_sounds2 =
+	{
+		type = "hlvr_default_3d"
+		volume = 3
+		volume_fade_out = 2
+		vsnd_files =
+		[
+			"sounds/interior/abuse_sounds2.vsnd"
+		]
+	}
+	
+	his_mercy.interior.opening_sounds =
+	{
+		type = "hlvr_default_3d"
+		volume = 7
+		vsnd_files = 
+		[
+			"sounds/interior/opening_sounds.vsnd"
+		]
+	}
+	
+	his_mercy.interior.baby_crying =
+	{
+		type = "hlvr_default_3d"
+		volume = 1
+		volume_fade_in = 2
+		volume_fade_out = 4
+		volume_falloff_min = 32
+		volume_falloff_max = 700
+		vsnd_files = 
+		[
+			"sounds/interior/baby_crying_loop.vsnd"
+		]
+	}
+	
+	his_mercy.interior.police_siren_lp =
+	{
+		type = "hlvr_default_3d"
+		volume = 3
+		volume_falloff_min = 32
+		volume_falloff_max = 700
+		vsnd_files = 
+		[
+			"sounds/interior/police_siren.vsnd"
+		]
+	}
+	
+	his_mercy.interior.door_banging =
+	{
+		type = "hlvr_default_3d"
+		volume = 3
+		volume_falloff_min = 32
+		volume_falloff_max = 700
+		vsnd_files = 
+		[
+			"sounds/interior/door_banging.vsnd"
+		]
+	}
+	
+	his_mercy.interior.sobbing =
+	{
+		type = "hlvr_default_3d"
+		volume = 3
+		volume_falloff_min = 32
+		volume_falloff_max = 500
+		vsnd_files = 
+		[
+			"sounds/interior/sobbing.vsnd"
+		]
+	}
+	
+	his_mercy.interior.puzzle_complete1 =
+	{
+		type = "hlvr_default_3d"
+		volume = 2
+		volume_falloff_min = 32
+		volume_falloff_max = 500
+		vsnd_files = 
+		[
+			"sounds/interior/puzzle_complete1.vsnd"
+		]
+	}
+	his_mercy.interior.puzzle_complete2 =
+	{
+		type = "hlvr_default_3d"
+		volume = 1
+		volume_falloff_min = 32
+		volume_falloff_max = 500
+		vsnd_files = 
+		[
+			"sounds/interior/puzzle_complete2.vsnd"
+		]
+	}
+	
+	Music.his_mercy_laundry_intro = 
+	{
+		type = "hlvr_music_2d"
+		volume = 0.400000
+		volume_fade_out = 6
+		priority = 1
+		track = "main"
+		restart_time = 370.404000
+		vsnd_files = 
+		[
+			"sounds/music/A5_LOOP.vsnd",
+		]
+	}
+	// also used for ending event, getting louder
+	Music.his_mercy_first_night = 
+	{
+		type = "hlvr_music_2d"
+		volume = 1.500000
+		volume_fade_out = 6
+		priority = 2
+		track = "main"
+		restart_time = 349.820000
+		vsnd_files = 
+		[
+			"sounds/music/E8_LOOP.vsnd",
+		]
+	}
+	Music.his_mercy_first_wife = 
+	{
+		type = "hlvr_music_2d"
+		volume = 2.000000
+		volume_fade_out = 6
+		priority = 3
+		track = "main"
+		restart_time = 332.736000
+		vsnd_files = 
+		[
+			"sounds/music/E2_LOOP.vsnd",
+		]
+	}
+	Music.his_mercy_traumatic_past = 
+	{
+		type = "hlvr_music_2d"
+		volume = 1.000000
+		volume_fade_in = 10
+		volume_fade_out = 6
+		priority = 4
+		track = "main"
+		restart_time = 333.337000
+		vsnd_files = 
+		[
+			"sounds/music/E4_LOOP.vsnd",
+		]
+	}
+	Music.his_mercy_second_wife = 
+	{
+		type = "hlvr_music_2d"
+		volume = 1.000000
+		volume_fade_in = 3
+		volume_fade_out = 6
+		priority = 5
+		track = "main"
+		restart_time = 328.138000
+		vsnd_files = 
+		[
+			"sounds/music/E5_LOOP.vsnd",
+		]
+	}
+	Music.his_mercy_bathroom_puzzle = 
+	{
+		type = "hlvr_music_2d"
+		volume = 1.000000
+		volume_fade_out = 6
+		priority = 6
+		track = "main"
+		restart_time = 340.677000
+		vsnd_files = 
+		[
+			"sounds/music/E6_LOOP.vsnd",
+		]
+	}
 }

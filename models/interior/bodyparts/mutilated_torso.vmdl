@@ -1,0 +1,70 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_Translate"
+						translation = [ 0.0, 0.0, -100.0 ]
+					},
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 0.5
+						mirror_x = false
+						mirror_y = false
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "material0.vmat"
+								to = "models/interior/bodyparts/mutilated_torso.vmat"
+							},
+							{
+								from = "material1.vmat"
+								to = "models/interior/bodyparts/mutilated_torso.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/interior/bodyparts/fbx/fagitolow.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

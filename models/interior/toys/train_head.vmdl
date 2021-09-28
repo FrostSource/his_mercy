@@ -26,6 +26,17 @@
 							spawn_motion_disabled = false
 						}
 					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_box"
+						game_keys = 
+						{
+							bonename = ""
+							dimensions = [ 11.9195, 7.84693, 9.22976 ]
+							offset_origin = [ 0.035473, 0.039829, 5.26321 ]
+							offset_angles = [ 0.0, 0.0, 0.0 ]
+						}
+					},
 				]
 			},
 			{
@@ -38,11 +49,44 @@
 						[
 							{
 								from = "train.vmat"
-								to = "models/interior/toys/fine_colored_train.vmat"
+								to = "models/interior/toys/fine_blank_train.vmat"
 							},
 						]
 						use_global_default = false
 						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "colored"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_blank_train.vmat"
+								to = "models/interior/toys/fine_colored_train.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "old"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_blank_train.vmat"
+								to = "models/interior/toys/old_blank_train.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "old_colored"
+						remaps = 
+						[
+							{
+								from = "models/interior/toys/fine_blank_train.vmat"
+								to = "models/interior/toys/old_colored_train.vmat"
+							},
+						]
 					},
 				]
 			},

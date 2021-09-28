@@ -1,0 +1,224 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\interior\\laundry\\dmx\\mesh\\opened_detergent.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Plastic.Small"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "cylinder_idle"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ -4.05319, 0.198782, 6.74834 ]
+							angles_left = [ -0.39781, 62.5928, 16.312605 ]
+							origin_right = [ -4.05319, -0.198782, 6.74834 ]
+							angles_right = [ -0.39781, -62.5928, -16.3126 ]
+							max_distance = 5.0
+							finger_thumb = 1.0
+							finger_pinky = 0.871826
+							finger_ring = 0.827989
+							finger_middle = 0.83926
+							finger_index = 0.967293
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ 0.0, 0.0, 2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, 0.0, -2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = false
+							rotation_axis0 = [ 0.0, 0.0, 10.0 ]
+							rotation_axis1 = [ 0.0, 0.0, -10.0 ]
+							rotation_min = 0.0
+							rotation_max = 0.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "cylinder_idle"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ -3.56813, 1.27718, 6.40702 ]
+							angles_left = [ 8.22762, 0.322273, 5.90773 ]
+							origin_right = [ -3.56813, -1.27718, 6.40702 ]
+							angles_right = [ 8.22762, -0.322273, -5.90773 ]
+							max_distance = 5.0
+							finger_thumb = 0.673053
+							finger_pinky = 0.821085
+							finger_ring = 0.647888
+							finger_middle = 0.636375
+							finger_index = 0.776123
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ 0.0, 0.0, 2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, 0.0, -2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = false
+							rotation_axis0 = [ 0.0, 0.0, 10.0 ]
+							rotation_axis1 = [ 0.0, 0.0, -10.0 ]
+							rotation_min = 0.0
+							rotation_max = 0.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						disabled = true
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "grab"
+							pose_special_type = "0"
+							conform_fingers = false
+							allow_flip = false
+							parent_bone = ""
+							origin_left = [ 0.300032, 0.097229, 14.412 ]
+							angles_left = [ 26.0046, 85.472, 75.4233 ]
+							origin_right = [ 0.300032, -0.097229, 14.412 ]
+							angles_right = [ 26.0046, -85.472, -75.423302 ]
+							max_distance = 5.0
+							finger_thumb = 0.560359
+							finger_pinky = 0.641021
+							finger_ring = 0.574064
+							finger_middle = 0.564661
+							finger_index = 0.687553
+							has_extent = false
+							show_extent_helper = false
+							extent_origin_left = [ 0.0, 0.0, 2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 0.0, 0.0, -2.0 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = false
+							rotation_axis0 = [ 0.0, 0.0, 10.0 ]
+							rotation_axis1 = [ 0.0, 0.0, -10.0 ]
+							rotation_min = 0.0
+							rotation_max = 0.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = ""
+							radius = 3.0
+							point0 = [ 1.7769, 0.0, 1.74228 ]
+							point1 = [ 0.875678, 0.0, 9.12368 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = ""
+							radius = 3.0
+							point0 = [ -1.7617, 0.0, 1.8767 ]
+							point1 = [ 0.258357, 0.0, 9.54138 ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "MaterialGroup"
+						name = "detergent_bottle001"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/hotel/washing_detergent001_nolabel.vmat"
+								to = "materials/models/props/hotel/washing_detergent001.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "opened_detergent"
+						parent_bone = ""
+						surface_prop = "prop.plastic_bottle_bleach"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/interior/laundry/dmx/mesh/opened_detergent.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 31
+						import_mode = "SingleHull"
+						optimization_algorithm = "IVR"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

@@ -17,3 +17,11 @@ scripts/vlua_globals.lua
 /models/interior/toys/fbx
 /models/interior/toys/textures
 
+/models/interior/babybed/fbx
+/models/interior/babybed/textures
+
+/models/interior/bodyparts/fbx
+/models/interior/bodyparts/textures
+
+/models/interior/slideprojector/source
+

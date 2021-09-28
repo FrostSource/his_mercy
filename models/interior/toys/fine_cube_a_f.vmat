@@ -6,6 +6,7 @@ Layer0
 
 	//---- PBR ----
 	F_AMBIENT_OCCLUSION_TEXTURE 1
+	F_METALNESS_TEXTURE 1
 
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "models/interior/toys/textures/fine_cube_a_f_ao.tga"
@@ -26,7 +27,7 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.000"
+	TextureMetalness "models/interior/toys/textures/fine_cube_a_f_metal.tga"
 
 	//---- Normal ----
 	TextureNormal "models/interior/toys/textures/fine_cube_a_f_normal.tga"
